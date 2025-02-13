@@ -1,6 +1,6 @@
 ---
 title: "Lists - In Class Exercises"
-author: "Dr. Shoemaker"
+author: "Carlos Gonzalez"
 date: "DATA 2401"
 output:nhtml_document
 
@@ -11,7 +11,11 @@ output:nhtml_document
 Make a list that contains the information on a single playing card. Suit, face, and value. 
 
 ```{r}
-
+playing_cards <- list(
+  suit = "Hearts",
+  face = "Queen",
+  value = 10
+)
 
 ```
 
@@ -19,7 +23,11 @@ Make a list that contains the information on a single playing card. Suit, face, 
 Make a second list where each element contains all the options for suit, face, and value, respectively. 
 
 ```{r}
-
+card_options <- list(
+  suit = c("heart", "diamond", "spade", "club"),
+  face = c(1:10, "jack", "queen", "king"),
+  value = c(1:10, 10, 10, 10)
+)
 
 ```
 
