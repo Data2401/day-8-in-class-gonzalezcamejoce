@@ -53,6 +53,7 @@ Let `x <- list(a=5:10, c="Hello", d="AA")`, write an R statement to add a new it
 
 ```{r}
 x <- list(a=5:10, c="Hello", d="AA")
-
+x$z <- "NewItem"
+x
 
 ```
